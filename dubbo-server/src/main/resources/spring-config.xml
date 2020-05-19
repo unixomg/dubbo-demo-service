@@ -17,15 +17,9 @@
 
 	<apollo:config/> 
 	<!-- 导入属性文件 -->
-<<<<<<< HEAD:dubbo-server/src/main/java/spring-config.xml
-	<context:property-placeholder location="classpath:config.properties"/>
+	<!-- <context:property-placeholder location="classpath:config.properties"/> -->
 	<context:component-scan base-package="com.bx.dubbotest"/>
 	<dubbo:annotation package="com.bx.dubbotest" />
-=======
-	<!-- <context:property-placeholder location="classpath:config.properties"/> -->
-	<context:component-scan base-package="com.od.dubbotest"/>
-	<dubbo:annotation package="com.od.dubbotest" />
->>>>>>> cf9d361cbf995f93a7502503ac894c9be7e9a29e:dubbo-server/src/main/resources/spring-config.xml
 	
     <!-- 提供方应用信息，用于计算依赖关系 -->  
     <dubbo:application name="dubbo-demo-service"  />  
